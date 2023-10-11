@@ -123,6 +123,4 @@ class HBNBCommand(cmd.Cmd):
                 print("** no instance found **")
                     
 if __name__ == "__main__":
-    cmd = HBNBCommand()
-    cmd.prompt = "(hbtn) "
-    cmd.cmdloop()
+   HBNBCommand().cmdloop()
